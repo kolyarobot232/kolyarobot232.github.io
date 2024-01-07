@@ -1,0 +1,58 @@
+.header{
+    background: rgb(200, 241, 229);
+    width: 100%;
+    text-align: center;  
+    padding: 15px;  
+}
+.strakt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family:'Courier New', Courier, monospace;
+}
+.strakt > *{
+    padding: 10px;
+    flex: 1 100%;
+}
+.list{
+    list-style: none;
+    padding: 20px;
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background: rgb(252, 218, 108);
+    text-align: center;  
+    font-size: 25px;
+    padding: 35px;
+}
+.aside{
+    flex-shrink: 2;
+    background: rgb(52, 161, 224);
+    text-align: center; 
+}
+.footer{
+    background:blueviolet;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.text{
+    align-self: center;
+}
+.photo12{
+    width: 100px;
+    padding: 15px;
+}
